@@ -19,6 +19,11 @@ th, td {
     text-align: left;
     padding: 8px;
 }
+th{
+    background-color: teal;
+    color: white;
+}
+
 
 tr:nth-child(even){background-color: #f2f2f2}
 </style>
@@ -26,14 +31,38 @@ tr:nth-child(even){background-color: #f2f2f2}
 <body>
 <!-- logo -->
 <div></div>
+
 <div class="container" style="overflow:scroll">
-  <table class="table table-borderedcol-sm">
+  <table class="table table-striped ">
     <tr>
       <th>Tenent Name</th>
       <th>Location</th>
       <th>Amount</th>
       <th>Phone Number</th>
       <th>Ask for Payment</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>ABCDEFGH</td>
+      <td>50</td>
+      <td>1234567890</td>
+      <td><button type="button" class="btn btn-success btn-xs">Send SMS</button></td>
+
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>ABCDEFGH</td>
+      <td>94</td>
+      <td>1234567890</td>
+      <td><button type="button" class="btn btn-success btn-xs">Send SMS</button></td>
+
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>ABCDEFGH</td>
+      <td>67</td>
+      <td>1234567890</td>
+      <td><button type="button" class="btn btn-success btn-xs">Send SMS</button></td>
     </tr>
     <tr>
       <td>Jill</td>
